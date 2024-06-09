@@ -1,9 +1,9 @@
-import { ChevronRight } from 'lucide-react'
-import React from 'react'
+import { ChevronRight } from 'lucide-react';
+import React from 'react';
 
 export function Footer() {
   return (
-    <footer className="w-full">
+    <footer className="w-full mt-auto">
       <div className="mx-auto flex max-w-6xl flex-col items-start space-x-8 md:flex-row">
         <div className="w-full px-4 md:w-1/2 lg:px-0">
           <h1 className="max-w-sm text-3xl font-bold">Subscribe to our Newsletter</h1>
@@ -24,7 +24,7 @@ export function Footer() {
         <div className="mt-8 grid grid-cols-2 gap-6 md:mt-0 lg:w-3/4 lg:grid-cols-3">
           {Array.from({ length: 3 }).map((_, i) => (
             <div key={i} className="mb-8 lg:mb-0">
-              <p className="mb-6 text-lg font-semibold text-gray-700 ">Company</p>
+              <p className="mb-6 text-lg font-semibold text-gray-700">Company</p>
               <ul className="flex flex-col space-y-4 text-[14px] font-medium text-gray-500">
                 <li>About us</li>
                 <li>Company History</li>
@@ -39,14 +39,14 @@ export function Footer() {
       <hr className="my-4" />
       <div className="mx-auto max-w-6xl items-center justify-between px-4 md:flex lg:px-0">
         <div className="inline-flex items-center">
-        <span className='text-red-600 font-serif font-bold text-2xl'>
-          <i>DevMarket</i> 
+          <span className="text-red-600 font-serif font-bold text-2xl">
+            <i>DevMarket</i>
           </span>
         </div>
         <div className="mt-4 md:mt-0">
-          <p className="text-sm font-medium text-gray-500">© 2023 Devmarket. All rights reserved.</p>
+          <p className="text-sm font-medium text-gray-500">© 2023 DevMarket. All rights reserved.</p>
         </div>
       </div>
     </footer>
-  )
+  );
 }
