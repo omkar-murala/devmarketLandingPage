@@ -41,7 +41,7 @@ const AboutUs: React.FC = () => {
 
     return (
         <div className="h-100vh bg-gradient-to-r from-blue-100 to-blue-50 text-gray-800">
-            <main className="py-8">
+            <main className="">
                 <section id="about" className="py-12">
                     <div className="text-center">
                         <h2 className="text-4xl font-semibold text-blue-600">DevMarket! 🤔</h2>
@@ -128,7 +128,7 @@ const AboutUs: React.FC = () => {
                                         style={{ minWidth: '100%' }}
                                     >
                                         <div className="text-center">
-                                            <Image src={feature.src} alt={feature.title} width={300} height={300} className="mx-auto" />
+                                            <Image src="https://plus.unsplash.com/premium_photo-1661546425835-ec64f90a3875?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8M2QlMjB0ZWNobm9sb2d5JTIwbGFwdG9wJTIwd2l0aCUyMHdvcmtpbmclMjBwcm9mZXNzaW9uYWxzJTIwdGVhbSUyMHdpdGglMjBsaWdodCUyMGNvbG91ciUyMGJhY2tncm91bmR8ZW58MHx8MHx8fDA%3D" alt={feature.title} width={300} height={300} className="mx-auto" />
                                             <h3 className="text-2xl font-semibold mt-4">{feature.title}</h3>
                                             <p className="mt-2">{feature.description}</p>
                                         </div>
@@ -158,21 +158,21 @@ const AboutUs: React.FC = () => {
                                 <div className="mt-6 grid grid-cols-1 md:grid-cols-3 gap-6 text-center">
                                     <div className="stat p-6 bg-white shadow-md rounded-lg">
                                         <div className="stat-icon mb-2">
-                                            <Image src="/images/users-icon.png" alt="Users" width={100} height={100} className="mx-auto" />
+                                            <Image src="https://plus.unsplash.com/premium_photo-1661546425835-ec64f90a3875?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8M2QlMjB0ZWNobm9sb2d5JTIwbGFwdG9wJTIwd2l0aCUyMHdvcmtpbmclMjBwcm9mZXNzaW9uYWxzJTIwdGVhbSUyMHdpdGglMjBsaWdodCUyMGNvbG91ciUyMGJhY2tncm91bmR8ZW58MHx8MHx8fDA%3D" alt="3D Elements" width={500} height={300} className="mx-auto" />
                                         </div>
                                         <h3 id="userCount" className="text-3xl font-bold">10,000+</h3>
                                         <p className="text-lg">Users</p>
                                     </div>
                                     <div className="stat p-6 bg-white shadow-md rounded-lg">
                                         <div className="stat-icon mb-2">
-                                            <Image src="/images/transactions-icon.png" alt="Transactions" width={100} height={100} className="mx-auto" />
+                                            <Image src="https://plus.unsplash.com/premium_photo-1661546425835-ec64f90a3875?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8M2QlMjB0ZWNobm9sb2d5JTIwbGFwdG9wJTIwd2l0aCUyMHdvcmtpbmclMjBwcm9mZXNzaW9uYWxzJTIwdGVhbSUyMHdpdGglMjBsaWdodCUyMGNvbG91ciUyMGJhY2tncm91bmR8ZW58MHx8MHx8fDA%3D" alt="3D Elements" width={500} height={300} className="mx-auto" />
                                         </div>
                                         <h3 id="transactionCount" className="text-3xl font-bold">50,000+</h3>
                                         <p className="text-lg">Transactions</p>
                                     </div>
                                     <div className="stat p-6 bg-white shadow-md rounded-lg">
                                         <div className="stat-icon mb-2">
-                                            <Image src="/images/software-icon.png" alt="Software" width={100} height={100} className="mx-auto" />
+                                            <Image src="https://plus.unsplash.com/premium_photo-1661546425835-ec64f90a3875?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8M2QlMjB0ZWNobm9sb2d5JTIwbGFwdG9wJTIwd2l0aCUyMHdvcmtpbmclMjBwcm9mZXNzaW9uYWxzJTIwdGVhbSUyMHdpdGglMjBsaWdodCUyMGNvbG91ciUyMGJhY2tncm91bmR8ZW58MHx8MHx8fDA%3D" alt="3D Elements" width={500} height={300} className="mx-auto" />
                                         </div>
                                         <h3 id="softwareCount" className="text-3xl font-bold">5,000+</h3>
                                         <p className="text-lg">Software Products</p>
@@ -185,30 +185,30 @@ const AboutUs: React.FC = () => {
                                 <div className="mt-6 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 text-center">
                                     <div className="team-member p-6">
                                         <div className="team-avatar mb-4">
-                                            <Image src="/images/john-doe.png" alt="John Doe" width={200} height={200} className="mx-auto rounded-full" />
+                                            <Image src="https://plus.unsplash.com/premium_photo-1661546425835-ec64f90a3875?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8M2QlMjB0ZWNobm9sb2d5JTIwbGFwdG9wJTIwd2l0aCUyMHdvcmtpbmclMjBwcm9mZXNzaW9uYWxzJTIwdGVhbSUyMHdpdGglMjBsaWdodCUyMGNvbG91ciUyMGJhY2tncm91bmR8ZW58MHx8MHx8fDA%3D" alt="John Doe" width={200} height={200} className="mx-auto rounded-full" />
                                         </div>
-                                        <h3 className="text-2xl font-semibold">Anand</h3>
+                                        <h3 className="text-2xl font-semibold">John Doe</h3>
                                         <p className="text-lg">CEO</p>
                                     </div>
                                     <div className="team-member p-6">
                                         <div className="team-avatar mb-4">
-                                            <Image src="/images/jane-smith.png" alt="Jane Smith" width={200} height={200} className="mx-auto rounded-full" />
+                                            <Image src="https://plus.unsplash.com/premium_photo-1661546425835-ec64f90a3875?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8M2QlMjB0ZWNobm9sb2d5JTIwbGFwdG9wJTIwd2l0aCUyMHdvcmtpbmclMjBwcm9mZXNzaW9uYWxzJTIwdGVhbSUyMHdpdGglMjBsaWdodCUyMGNvbG91ciUyMGJhY2tncm91bmR8ZW58MHx8MHx8fDA%3D" alt="Jane Smith" width={200} height={200} className="mx-auto rounded-full" />
                                         </div>
-                                        <h3 className="text-2xl font-semibold">Anand</h3>
+                                        <h3 className="text-2xl font-semibold">Jane Smith</h3>
                                         <p className="text-lg">CTO</p>
                                     </div>
                                     <div className="team-member p-6">
                                         <div className="team-avatar mb-4">
-                                            <Image src="/images/emma-jones.png" alt="Emma Jones" width={200} height={200} className="mx-auto rounded-full" />
+                                            <Image src="https://plus.unsplash.com/premium_photo-1661546425835-ec64f90a3875?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8M2QlMjB0ZWNobm9sb2d5JTIwbGFwdG9wJTIwd2l0aCUyMHdvcmtpbmclMjBwcm9mZXNzaW9uYWxzJTIwdGVhbSUyMHdpdGglMjBsaWdodCUyMGNvbG91ciUyMGJhY2tncm91bmR8ZW58MHx8MHx8fDA%3D" alt="Emma Jones" width={200} height={200} className="mx-auto rounded-full" />
                                         </div>
-                                        <h3 className="text-2xl font-semibold">Anand</h3>
+                                        <h3 className="text-2xl font-semibold">Emma Jones</h3>
                                         <p className="text-lg">Lead Developer</p>
                                     </div>
                                     <div className="team-member p-6">
                                         <div className="team-avatar mb-4">
-                                            <Image src="/images/michael-brown.png" alt="Michael Brown" width={200} height={200} className="mx-auto rounded-full" />
+                                            <Image src="https://plus.unsplash.com/premium_photo-1661546425835-ec64f90a3875?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8M2QlMjB0ZWNobm9sb2d5JTIwbGFwdG9wJTIwd2l0aCUyMHdvcmtpbmclMjBwcm9mZXNzaW9uYWxzJTIwdGVhbSUyMHdpdGglMjBsaWdodCUyMGNvbG91ciUyMGJhY2tncm91bmR8ZW58MHx8MHx8fDA%3D" alt="Michael Brown" width={200} height={200} className="mx-auto rounded-full" />
                                         </div>
-                                        <h3 className="text-2xl font-semibold">Anand</h3>
+                                        <h3 className="text-2xl font-semibold">Michael Brown</h3>
                                         <p className="text-lg">Head of Marketing</p>
                                     </div>
                                 </div>
@@ -243,7 +243,7 @@ const AboutUs: React.FC = () => {
                                     <div className="relative grid grid-cols-1 md:grid-cols-2 gap-8">
                                         <div className="bg-white shadow-lg rounded-lg overflow-hidden transform transition-transform duration-300 hover:scale-105">
                                             <div className="relative">
-                                                <Image src="/images/blog1.jpg" alt="Blog Post 1" width={600} height={400} className="w-full h-60 object-cover" />
+                                                <Image src="https://plus.unsplash.com/premium_photo-1661546425835-ec64f90a3875?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8M2QlMjB0ZWNobm9sb2d5JTIwbGFwdG9wJTIwd2l0aCUyMHdvcmtpbmclMjBwcm9mZXNzaW9uYWxzJTIwdGVhbSUyMHdpdGglMjBsaWdodCUyMGNvbG91ciUyMGJhY2tncm91bmR8ZW58MHx8MHx8fDA%3D" alt="Blog Post 1" width={600} height={400} className="w-full h-60 object-cover" />
                                                 <div className="absolute inset-0 bg-gradient-to-t from-black to-transparent opacity-50"></div>
                                             </div>
                                             <div className="p-6 relative z-10">
@@ -254,7 +254,7 @@ const AboutUs: React.FC = () => {
                                         </div>
                                         <div className="bg-white shadow-lg rounded-lg overflow-hidden transform transition-transform duration-300 hover:scale-105">
                                             <div className="relative">
-                                                <Image src="/images/blog2.jpg" alt="Blog Post 2" width={600} height={400} className="w-full h-60 object-cover" />
+                                                <Image src="https://plus.unsplash.com/premium_photo-1661546425835-ec64f90a3875?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8M2QlMjB0ZWNobm9sb2d5JTIwbGFwdG9wJTIwd2l0aCUyMHdvcmtpbmclMjBwcm9mZXNzaW9uYWxzJTIwdGVhbSUyMHdpdGglMjBsaWdodCUyMGNvbG91ciUyMGJhY2tncm91bmR8ZW58MHx8MHx8fDA%3D" alt="Blog Post 2" width={600} height={400} className="w-full h-60 object-cover" />
                                                 <div className="absolute inset-0 bg-gradient-to-t from-black to-transparent opacity-50"></div>
                                             </div>
                                             <div className="p-6 relative z-10">
@@ -271,16 +271,16 @@ const AboutUs: React.FC = () => {
                                 <h2 className="text-4xl font-semibold text-blue-600 text-center">Elite Partner Network</h2>
                                 <div className="mt-6 grid grid-cols-2 md:grid-cols-4 gap-6">
                                     <div className="partner-logo p-6 bg-white shadow-md rounded-lg">
-                                        <Image src="/images/partner1.png" alt="Partner 1" width={200} height={100} className="mx-auto" />
+                                        <Image src="https://plus.unsplash.com/premium_photo-1661546425835-ec64f90a3875?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8M2QlMjB0ZWNobm9sb2d5JTIwbGFwdG9wJTIwd2l0aCUyMHdvcmtpbmclMjBwcm9mZXNzaW9uYWxzJTIwdGVhbSUyMHdpdGglMjBsaWdodCUyMGNvbG91ciUyMGJhY2tncm91bmR8ZW58MHx8MHx8fDA%3D" alt="Partner 1" width={200} height={100} className="mx-auto" />
                                     </div>
                                     <div className="partner-logo p-6 bg-white shadow-md rounded-lg">
-                                        <Image src="/images/partner2.png" alt="Partner 2" width={200} height={100} className="mx-auto" />
+                                        <Image src="https://plus.unsplash.com/premium_photo-1661546425835-ec64f90a3875?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8M2QlMjB0ZWNobm9sb2d5JTIwbGFwdG9wJTIwd2l0aCUyMHdvcmtpbmclMjBwcm9mZXNzaW9uYWxzJTIwdGVhbSUyMHdpdGglMjBsaWdodCUyMGNvbG91ciUyMGJhY2tncm91bmR8ZW58MHx8MHx8fDA%3D" alt="Partner 2" width={200} height={100} className="mx-auto" />
                                     </div>
                                     <div className="partner-logo p-6 bg-white shadow-md rounded-lg">
-                                        <Image src="/images/partner3.png" alt="Partner 3" width={200} height={100} className="mx-auto" />
+                                        <Image src="https://plus.unsplash.com/premium_photo-1661546425835-ec64f90a3875?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8M2QlMjB0ZWNobm9sb2d5JTIwbGFwdG9wJTIwd2l0aCUyMHdvcmtpbmclMjBwcm9mZXNzaW9uYWxzJTIwdGVhbSUyMHdpdGglMjBsaWdodCUyMGNvbG91ciUyMGJhY2tncm91bmR8ZW58MHx8MHx8fDA%3D" alt="Partner 3" width={200} height={100} className="mx-auto" />
                                     </div>
                                     <div className="partner-logo p-6 bg-white shadow-md rounded-lg">
-                                        <Image src="/images/partner4.png" alt="Partner 4" width={200} height={100} className="mx-auto" />
+                                        <Image src="https://plus.unsplash.com/premium_photo-1661546425835-ec64f90a3875?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8M2QlMjB0ZWNobm9sb2d5JTIwbGFwdG9wJTIwd2l0aCUyMHdvcmtpbmclMjBwcm9mZXNzaW9uYWxzJTIwdGVhbSUyMHdpdGglMjBsaWdodCUyMGNvbG91ciUyMGJhY2tncm91bmR8ZW58MHx8MHx8fDA%3D" alt="Partner 4" width={200} height={100} className="mx-auto" />
                                     </div>
                                 </div>
                             </section>
