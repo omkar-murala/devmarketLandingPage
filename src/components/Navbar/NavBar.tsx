@@ -1,14 +1,13 @@
 "use client";
 import {
-  ClerkProvider,
   SignInButton,
   SignedIn,
   SignedOut,
   UserButton
-} from '@clerk/nextjs'
-import React from "react";
+} from '@clerk/nextjs';
 import { Menu, X } from "lucide-react";
 import Link from "next/link";
+import React from "react";
 
 const menuItems = [
   {
@@ -101,7 +100,7 @@ export function Navbar() {
                     ))}
                   </nav>
                 </div>
-               <SignedOut>
+              <SignedOut>
           <SignInButton />
         </SignedOut>
         <SignedIn>
